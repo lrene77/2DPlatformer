@@ -72,6 +72,8 @@ public class GameManager : MonoBehaviour
         isCleared = true;
 
         resultPopup.SetActive(true);
+
+        Debug.Log("Clear");
     }
 
     public void GameOver()

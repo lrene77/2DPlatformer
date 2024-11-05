@@ -12,7 +12,7 @@ public class Fruit : MonoBehaviour
         {
             GameManager.Instance.AddTime(timeAdd);
             GetComponent<Animator>().SetTrigger("Eaten");
-            Invoke("DestroyThis", 0.3f);
+            Invoke("DestroyThis", 0.2f);
         }
     }
 

@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     public float jumpSpeed = 15;
     public Collider2D bottomCollider;
     public CompositeCollider2D terrainCollider;
+    public GameObject bulletPrefab;
 
     float vx=0;
     float prevVx = 0;
